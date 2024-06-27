@@ -1,0 +1,89 @@
+### Create book
+POST http://localhost:8080/books
+
+### Get book by ID
+GET http://localhost:8080/books/6
+
+### Update book
+PUT http://localhost:8080/books/4
+
+### Delete book
+DELETE http://localhost:8080/books/1
+
+### Get all books (not in task)
+GET http://localhost:8080/books
+
+### Get book by rating (not in task)
+GET http://localhost:8080/books/by-rating/7
+
+### Get books with any publisher (not in task)
+GET http://localhost:8080/books/with-publisher
+
+### Get books by publisher (not in task)
+GET http://localhost:8080/books/by-publisher/1
+
+### Get books by publisher {object} (not in task)
+GET http://localhost:8080/books/by-publisher/new Publisher(1l,"veryHappyPublisher")
+
+### Get books by author (not in task)
+GET http://localhost:8080/books/by-author/1
+
+### Find books (not in task)
+GET http://localhost:8080/books/find?title=title&categoryId=1&categoryName=category
+
+
+
+
+
+
+### Create author
+POST http://localhost:8080/authors
+
+### Get author by ID
+GET http://localhost:8080/authors/1
+
+### Update author
+PUT http://localhost:8080/authors/1
+
+### Delete author
+DELETE http://localhost:8080/authors/1
+
+### Get all authors (not in task)
+GET http://localhost:8080/authors
+
+
+
+
+
+
+
+
+### Create publisher
+POST http://localhost:8080/publishers
+
+### Get publisher by ID
+GET http://localhost:8080/publishers/3
+
+### Update publisher
+PUT http://localhost:8080/publishers/2
+
+### Delete publisher
+DELETE http://localhost:8080/publishers/2
+
+### Get all publishers (not in task)
+GET http://localhost:8080/publishers
+
+
+
+
+### Create person
+POST http://localhost:8080/persons
+
+### Get person by ID
+GET http://localhost:8080/persons/1
+
+### Update person
+PUT http://localhost:8080/persons/1
+
+### Delete person
+DELETE http://localhost:8080/persons/1
